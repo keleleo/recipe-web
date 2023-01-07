@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Router from 'next/router';
 import { useEffect, useRef, useState } from 'react';
-import { HiOutlineUserMinus, HiOutlineUserPlus } from 'react-icons/hi2';
+import { HiOutlineUser, HiOutlineUserPlus } from 'react-icons/hi2';
 import { AuthService } from '../services/auth.service';
 import styles from './UserAvatar.module.css';
 
@@ -55,7 +55,7 @@ export default function UserAvatar() {
           <>
             <Link href="/login" onClick={close}>
               <div>
-                <HiOutlineUserMinus className={styles.icon} /> Conectar
+                <HiOutlineUser className={styles.icon} /> Conectar
               </div>
             </Link>
             <Link href="/register" onClick={close}>
