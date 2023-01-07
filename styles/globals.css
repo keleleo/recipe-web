@@ -8,10 +8,18 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   height: 100%;
   background-color: var(--background2);
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
 }
 
 #__next {
   height: 100%;
+}
+
+#__content {
+  padding-top: 90px;
+  height: 100%;
+  width: 100%;
 }
 
 a {
